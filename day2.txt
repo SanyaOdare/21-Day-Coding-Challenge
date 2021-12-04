@@ -1,0 +1,47 @@
+Challenge #2 - One small step at a time
+“Great work on the last task! That wasn’t too hard was it?” exclaims your energetic supervisor. 
+“Before you get started on this next one, we need to find a place for you to work while we finish 
+the on-boarding process. As we’re busy with pre-launch preparations, we haven’t had time to set up 
+a desk for you. Why don’t you try using the old storage closet down the hall?”
+
+Upon opening the paper thin door to the storage closet, you’re greeted by a claustrophobic scene; 
+a small office space, now used to store boxes of previous mission logs and all manner of repurposed junk. 
+Filled to the brim with discarded memos, notes, and diagrams, you sift through the mountainous clutter 
+to eventually reveal a pitiful desk, fortunately situated beside an electrical outlet.
+
+You turn on your laptop, plug in your charger, and take a seat with a steely resolve 
+to complete your task as fast as possible.
+
+Registering new astronauts was handled manually in previous missions but it's taking too much time. 
+Knowing that the astronaut information is already listed in a data set, you propose to optimize 
+that job with programming.
+
+Your task is to automate that process by creating a function that will take in an astronaut object 
+as a parameter and return a string using the properties of the astronaut.
+
+Examples
+Input:
+
+    const exampleAstronaut = {
+      firstName: "Yuri",
+      lastName: "Gagarin",
+      nickname: "First!",
+      prefix: "Cosmonaut"
+    }
+    
+Output:
+
+    Cosmonaut: Yuri "First!" Gagarin
+    
+Input:
+
+    const exampleAstronaut = {
+      firstName: "Neil",
+      lastName: "Armstrong",
+      nickname: "Steps",
+      prefix: "Astronaut"
+    }
+    
+Output:
+
+    Astronaut: Neil "Steps" Armstrong
