@@ -1,0 +1,59 @@
+Challenge #3 - What’s in the box?
+Having submitted your function to your supervisor after testing to make sure it works, 
+you get up from the cramped desk to take a stretch. Upon closer inspection, 
+the room you’re in contains far more than just stacks of files. In the back corner, 
+underneath a tower of storage boxes, is a metal foot that looks… webbed?
+
+As you move box after box, you can hear the rattling of metal and... a “quack” noise? 
+Fueled by curiosity you remove the last box and are greeted by an animatronic 
+in the form of a duck. The robot is completely still, its green-tinted LED eyes are dim 
+and its bright yellow bill drooped downward. Turning it around, you find a black screen 
+on its back and a charging plug where the tail should be.
+
+Before you can plug it in, however, the door to the storage closet swings open. 
+Your supervisor has arrived to congratulate you on completing your last task in record time. 
+Since you’ve been doing such a great job, they’ve decided to give you another task. 
+This time, you need to fix a pressure gauge sensor on the shuttle - apparently the current 
+function that validates whether or not the gauge pressure is within parameters is faulty.
+
+Based on the description and the list of resources you have, this shouldn’t be too difficult 
+to figure out, your supervisor assures you. As they leave the room and shut the door, 
+a gust of wind rattles the lifeless robot beside you. Intrigued by what it could be, 
+you resist the urge to continue examining the strange contraption and return to 
+your desk to focus on the problem at hand.
+
+.............................................................................................
+
+Making sure that a value is within a specific range is a common task in programming. 
+In this case, the structure given is a gauge object with a current value, a minimum 
+and a maximum. If the current value is between the minimum and maximum, then everything 
+is peachy, if not, we return a message saying that there is trouble.
+
+Your task is to create a function that will take the gauge object as a parameter, 
+and will return true if the current value is between the minimum and maximum, 
+and return false if the value is outside those.
+
+Examples
+Input:
+
+    const exampleGauge = {
+      current:0.4,
+      min:0.1,
+      max:0.9
+    }
+    
+Output:
+
+    true
+    
+Input:
+
+    const exampleGauge = {
+      current:1.4,
+      min:0.1,
+      max:0.4
+    }
+    
+Output:
+
+    false
