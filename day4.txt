@@ -1,0 +1,78 @@
+Challenge #4 - Hope you’re not afraid of the dark...
+Just as you initially expected, the previous task was fairly straightforward 
+and a good refresher on working with if-statements and boolean conditions 
+within Javascript. Satisfied with your efforts so far, your supervisor 
+decides to send you on an extended lunch break. The only caveat being 
+that they want you to answer a quick question regarding the next pre-launch 
+task. Do we have a way to remotely switch a shuttle toggle on and off from 
+SPELL HQ? With little to no explanation given beyond that, your supervisor 
+leaves you alone in that same cramped storage closet, with nothing but your 
+thoughts (and some useful resources!) to guide you.
+
+Sitting back down at the desk, you decide to figure out a solution to the 
+problem before going to the cafeteria. Accessing the value of an object’s 
+property is trivial enough and you’ve done that in your previous tasks, 
+but the major issue is that the toggle must automatically switch to one of 
+two values (True or False) based on the value it’s currently set to. 
+Vocalizing your thought process as you work through potential solutions, 
+you eventually find yourself stumped. While you could certainly employ 
+an if-else statement check to set the toggle on and off, it feels like 
+there’s a more elegant solution.
+
+“Look at opposites,” a voice calls out from behind you. The sound of slight 
+distortion and synthesized vocals sends a chill down your spine - the only 
+explanation being that the voice belongs to something inhuman.
+
+Turning around slowly and with great care, you find yourself looking directly 
+at the robot duck in the corner, head still lolling to the side, beak dropped 
+downward in exactly the same position. It couldn’t have been that thing, could it? 
+Beside the duck, its power cable lays unwound and unplugged beside it. 
+Before you can investigate further, you’re struck with inspiration.
+
+“Look at opposites,” the voice had said.
+
+...................................................................................
+
+Instructions
+(This challenge is worth 5 points)
+
+Click here to learn how to navigate the code editor
+
+Opposites hm? In our daily lives, an opposite can mean multiple things, but in programming, 
+it's different. Opposites can only be used when dealing with logical expressions or booleans. 
+Knowing that the property inside our toggle is called isOn, we can infer that the value 
+attached to it is either true, or false.
+
+Create a function that takes in a toggle object and will change the value of the property isOn 
+between true and false and return the updated object. Using the function twice should revert 
+the toggle back to its original value.
+
+Examples
+Input:
+
+    const someToggle = {
+      name:"toggleA",
+      isOn:false
+    }
+    
+Output:
+
+    const someToggle = {
+      name:"toggleA",
+      isOn:true
+    }
+    
+Input:
+
+    // If ran twice
+    const someToggle = {
+      name:"toggleB",
+      isOn:true
+    }
+    
+Output:
+
+    const someToggle = {
+      name:"toggleB",
+      isOn:true
+    }
